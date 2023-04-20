@@ -64,19 +64,19 @@ printf("----------------------------------------------------------------\n");
 
             switch(command) {
             case 'i': case 'I':
-            getInfix(); // 함수 getInfix() 호출 
+            getInfix(); // 함수 getInfix 호출 
                 break;
             case 'p': case 'P':
-                toPostfix(); // 함수 toPostfix() 호출 
+                toPostfix(); // 함수 toPostfix 호출 
                 break;
             case 'e': case 'E':
-                evaluation(); // 함수 evaluation() 호출 
+                evaluation(); // 함수 evaluation 호출 
                 break;
             case 'd': case 'D':
-            debug(); // 함수 debug() 호출 
+            debug(); // 함수 debug 호출 
                 break;
             case 'r': case 'R':
-            reset(); // 함수 reset() 호출 
+            reset(); // 함수 reset 호출 
                 break;
             case 'q': case 'Q':
                 break;
